@@ -1,6 +1,7 @@
 body {
     background-color: #ffe6de;
     text-align: center;
+    margin: 0;
 }
 body img {
     margin-top: 1.5%;
@@ -17,7 +18,8 @@ p {
     max-width: 100%;
 }
 .Intro p {
-    text-align: right;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
 }
 form {
     text-align: left;
@@ -65,17 +67,11 @@ form input {
 #CurrentEvo {
     height: 40px;
     width: 400px;
-    border-color: red;
-    border-style: solid;
-    border-radius: 1px;
     margin-bottom: 25px;
 }
 #Credits {
     height: 40px;
     width: 400px;
-    border-color: red;
-    border-style: solid;
-    border-radius: 1px;
     margin-bottom: 25px;
 }
 #Gold {
@@ -85,11 +81,19 @@ form input {
 }
 #Discount {
     height: 40px;
-    width: 400px;
-    border-color: red;
-    border-style: solid;
-    border-radius: 1px;
+    width: 408px;
     margin-bottom: 25px;
+}
+select {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    box-shadow: 5px 5px 12px black;
+}
+option {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 button {
     font-family: 'Roboto', sans-serif;
@@ -103,8 +107,138 @@ button {
 button:hover {
     background-color: #ff7449;
 }
-.result {
+#result {
     text-align: center;
     font-family: 'Roboto',sans-serif;
     margin-top: 40%;
+    font-size: 45px;
+    color: white;
+    text-shadow: 4px 3px 8px black;
+}
+footer {
+    background-color: #ff5722;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    margin-left: 0;
+    height: 25px;
+    padding-top: 0.2%;
+    font-family: 'Mulish', sans-serif;
+}
+.RightFoot {
+    position: relative;
+    float: right;
+    text-align: right;
+    margin-right: 2%;
+}
+.LeftFoot {
+    position: relative;
+    float: left;
+    text-align: left;
+    margin-left: 2%;
+}
+@media all and (min-width:960px) and (max-width: 1024px) {
+  /* put your css styles in here */
+}
+
+@media all and (min-width:801px) and (max-width: 959px) {
+  /* put your css styles in here */
+}
+
+@media all and (min-width:769px) and (max-width: 800px) {
+  /* put your css styles in here */
+}
+
+@media all and (min-width:569px) and (max-width: 768px) {
+  /* put your css styles in here */
+}
+
+@media all and (min-width:481px) and (max-width: 568px) {
+  /* put your css styles in here */
+}
+
+@media all and (min-width:321px) and (max-width: 480px) {
+  /* put your css styles in here */
+    .LMutant img {
+        display: none;
+    }
+    .EvoForm {
+        padding-top: 25px;
+        margin-bottom: 50px;
+    }
+    .formGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+    }
+    .calcForm {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    form label {
+        font-family: 'Roboto', sans-serif;
+        text-align: left;
+        font-weight: bold;
+        font-size: 26px;
+        margin-top: -50%;
+        color: white;
+        text-shadow: 2px 2px 6px black;
+    }
+    form input {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        box-shadow: 5px 5px 12px black;
+    }
+    #CurrentEvo {
+        height: 40px;
+        width: 290px;
+        margin-bottom: 25px;
+    }
+    #Credits {
+        height: 40px;
+        width: 290px;
+        margin-bottom: 25px;
+    }
+    #Gold {
+        height: 40px;
+        width: 290px;
+        margin-bottom: 25px;
+    }
+    #Discount {
+        height: 40px;
+        width: 290px;
+        margin-bottom: 25px;
+    }
+    select {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        box-shadow: 5px 5px 12px black;
+    }
+    option {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+    }
+    button {
+        font-family: 'Roboto', sans-serif;
+        width: 295px;
+        height: 60px;
+        background-color: #ffe6de;
+        font-size: 18px;
+        border-width: 1px;
+        box-shadow: 5px 5px 12px black;
+    }
+    footer {
+        font-size: 12px;
+    }
+    .RightFoot {
+        padding-top: 5px;
+    }
+    .LeftFoot {
+        padding-top: 5px;
+    }
 }
