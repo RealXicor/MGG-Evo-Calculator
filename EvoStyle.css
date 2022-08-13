@@ -1,0 +1,110 @@
+body {
+    background-color: #ffe6de;
+    text-align: center;
+}
+body img {
+    margin-top: 1.5%;
+    max-width: 100%;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+}
+p {
+    margin-top: -2%;
+}
+.Intro {
+    max-width: 100%;
+}
+.Intro p {
+    text-align: right;
+}
+form {
+    text-align: left;
+    overflow: auto;
+    display: inline-block;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ff5722;
+    width: 80%;
+    padding: 2%;
+    background-color: #ff5722;
+}
+.formGrid {
+    display: grid;
+    grid-template-columns: 1fr 0.8fr 1fr 0.8fr;
+    grid-gap: 5px;
+}
+.LMutant img {
+    height: 500px;
+    width: 450px;
+}
+.RMutant img {
+    height: 500px;
+    width: 450px;
+}
+form label {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -50%;
+    color: white;
+    text-shadow: 2px 2px 6px black;
+}
+form input {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    box-shadow: 5px 5px 12px black;
+}
+.calcForm {
+    margin-top: 2%;
+    margin-left: -150px;
+}
+#CurrentEvo {
+    height: 40px;
+    width: 400px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 1px;
+    margin-bottom: 25px;
+}
+#Credits {
+    height: 40px;
+    width: 400px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 1px;
+    margin-bottom: 25px;
+}
+#Gold {
+    height: 40px;
+    width: 400px;
+    margin-bottom: 25px;
+}
+#Discount {
+    height: 40px;
+    width: 400px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 1px;
+    margin-bottom: 25px;
+}
+button {
+    font-family: 'Roboto', sans-serif;
+    width: 408px;
+    height: 60px;
+    background-color: #ffe6de;
+    font-size: 18px;
+    border-width: 1px;
+    box-shadow: 5px 5px 12px black;
+}
+button:hover {
+    background-color: #ff7449;
+}
+.result {
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    margin-top: 40%;
+}
