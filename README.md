@@ -1,6 +1,8 @@
 # MGG-Evo-Calculator
 Evo Calculator for the game, **"Mutants: Genetic Gladiators"**
 
+[![image.png](https://i.postimg.cc/XvtLQWJq/image.png)](https://postimg.cc/94tyQvyH)
+
 **Access it [here](https://mggevocalculator.netlify.app)**
 
 Created for [r/Mutantsgg](https://www.reddit.com/r/mutantsgg/) subreddit.
